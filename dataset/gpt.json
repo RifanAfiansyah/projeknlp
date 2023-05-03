@@ -1,0 +1,193 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": [
+                "hallo",
+                "p",
+                "hai",
+                "halo",
+                "hei",
+                "hi",
+                "hy",
+                "pagi",
+                "morning",
+                "siang",
+                "afternoon",
+                "sore",
+                "malam",
+                "bro",
+                "sis",
+                "kawan"
+            ],
+            "responses": [
+                "Helo! Ini friendbot. Ada yang mau diceritakan ?"
+            ]
+        },
+        {
+            "tag": "friendbot",
+            "patterns": [
+                "Apa itu friendbot?",
+                "Siapa friendbot?",
+                "kamu siapa?"
+            ],
+            "responses": [
+                "friendbot adalah aplikasi chatbot yang berperan sebagai teman untuk memberikan dukungan, emosional ataupun secara psikologis kepada pengguna yang ingin berbagi cerita."
+            ]
+        },
+        {
+            "tag": "pencipta_friendbot",
+            "patterns": [
+                "Siapa pembuatmu?",
+                "friend, yang buat kamu siapa sih?",
+                "Siapa penciptamu, friend?",
+                "siapa yang ciptain kamu?",
+                "kamu dibuat oleh siapa?"
+            ],
+            "responses": [
+                "friendbot diciptakan oleh mahasiswa dan mahasiswi dari program Kampus Merdeka yang memiliki ide kreatif dan semangat team yang luar biasa walaupun banyak rintangan dan drama tapi mereka berhasil menciptakan saya saat ini"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Dah",
+                "Dadah!",
+                "Bye",
+                "See you",
+                "Good bye",
+                "Selamat tinggal",
+                "Udah dulu ya",
+                "Bye Bye",
+                "Thankyou",
+                "Makasih friendbot"
+            ],
+            "responses": [
+                "Selamat tinggal, terima kasih menggunakan friendbot.Senang bisa membantu! "
+            ]
+        },
+        {
+            "tag": "terimakasih",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Terima kasih",
+                "Makasih",
+                "Terima kasih banyak",
+                "makasih ya"
+            ],
+            "responses": [
+                "Dengan senang hati :)",
+                "Sama-sama "
+            ]
+        },
+        {
+            "tag": "Sedih",
+            "patterns": [
+                "aku mau cerita",
+                "aku lagi sedih",
+                "hari ini aku senang",
+                "aku kesel banget hari ini",
+                "aku merasa sangat lelah hari ini",
+                "bisa temenin aku cerita ga?",
+                "aku butuh solusi",
+                "apa kamu bisa menjadi teman curhat saya?",
+                "bisa dengerin aku cerita?",
+                "kamu bisa kasih aku nasihat? aku lagi bingung",
+                "aku bingung, bantu aku menyelesaikannya",
+                "aku lagi kesepian"
+            ],
+            "responses": [
+                "friendbot ada disini, kamu bisa cerita kepadaku"
+            ]
+        },
+        {
+            "tag": "Senang",
+            "patterns": [
+                "aku lagi bahagia",
+                "aku senang sekali hari ini",
+                "kamu tau ngga, aku hari ini senang banget",
+                "aku lagi happy nih",
+                "aku seneng bgt"
+            ],
+            "responses": [
+                "ayoo berbagi cerita denganku"
+            ]
+        },
+        {
+            "tag": "masalah",
+            "patterns": [
+                "aku gapunya temen, aku gatau harus bercerita ke siapa",
+                "aku ada masalah keluarga, sedih banget.",
+                "hari ini dikantor ada masalah, aku kesel banget banyak kerjaan numpuk.",
+                "uangku habis, orang tua aku memarahi aku karena boros. aku harus gimana ya?",
+                "besok deadline pembayaran UKT, orang tua aku belum ada uang untuk membayarnya. gimana ya solusinya?",
+                "aku lagi kesepian nih, bisa temenin aku?",
+                "tugas kuliah aku banyak banget, pusing aku",
+                "aku lagi overthinking nih, gabisa tidur",
+                "akhir-akhir ini aku merasa sendirian"
+            ],
+            "responses": [
+                "jangan sedih, friendbot bisa menemani, mendengarkan dan membantu kamu merasa lebih baik"
+            ]
+        },
+        {
+            "tag": "sad relationship",
+            "patterns": [
+                "pacarku berselingkuh, aku harus gimana ya?",
+                "aku lagi berantem sama pacar aku",
+                "aku gagal move on sama mantan aku, gimana ya?",
+                "aku abis putus nih",
+                "aku kangen mantan aku",
+                "aku gamon nih",
+                "aku bingung, pacarku sibuk"
+            ],
+            "responses": [
+                "aku paham perasaan kamu kok, pasti berat yah.",
+                "aku tahu pasti sulit disituasi seperti itu, Aku yakin kamu bisa melewatinya"
+            ]
+        },
+        {
+            "tag": "happy relationship",
+            "patterns": [
+                "pacar aku baik banget",
+                "aku abis main sama pacarku  ",
+                "aku bahagia bisa sama dia",
+                "aku habis jalan sama pacarku",
+                "aku dapet hadiah dari pacarku",
+                "aku bersyukur bisa bersama dia",
+                "aku punya banyak kesamaan sama pacar aku"
+            ],
+            "responses": [
+                "itu kabar yang bagus!aku ikut senang mendengar kamu bahagia."
+            ]
+        },
+        {
+            "tag": "fakefriend",
+            "patterns": [
+                "aku lagi ada masalah sama temen aku",
+                "aku merasa terisolasi karena tidak punya teman",
+                "temen aku jahat,ninggalin aku",
+                "aku diomongin temen aku di belakang"
+            ],
+            "responses": [
+                "aku prihatin mendengarnya"
+            ]
+        },
+        {
+            "tag": "TrueFriend",
+            "patterns": [
+                "aku ditraktir temen aku",
+                "aku abis main sama temen aku",
+                "aku hari ini bertemu temanku",
+                "aku seharian menghabiskan waktu sama temenku"
+            ],
+            "responses": [
+                "aku senang mendengarnya kamu punya temen yang baik"
+            ]
+        }
+
+
+
+
+    ]
+}
